@@ -7,4 +7,6 @@
 - SRS Report
 - HTML, CSS, JavaScript and PHP
 - Frontend and Backend
+- High and Low level Design
+
   
