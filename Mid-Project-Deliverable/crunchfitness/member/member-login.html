@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Log In</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@300&family=Open+Sans:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  </head>
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="bi bi-arrow-up"></i>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+      </svg>
+    </button>
+    <!-- /scroll up -->
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+        <div class="container-fluid">
+          <a href="../index.html">
+            <img src="../images/crunch-logo.jpg" alt="crunch Template" title="crunch-fitness" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="training.html">Training</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="class.html">Classes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="faq.html">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+              <li class="nav-item dropdown nav-register nav-login-register">
+                <a class="nav-link dropdown-toggle btn btn-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Login </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li>
+                    <a class="dropdown-item" href="member-login.html">Member</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../admin/admin-login.html">Staff</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item  nav-login-register">
+                <a class="nav-link btn btn-dark" href="register.html">Register</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- /navbar -->
+    <main>
+      <section class="vh-100">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col col-xl-10">
+              <div class="card" style="border-radius: 1rem; box-shadow: 0 0 15px 5px rgb(15, 6, 6)">
+                <div class="row g-0">
+                  <div class="col-md-6 col-lg-5 d-none d-md-block">
+                    <img src="../images/login-img.png" alt="login form" class="img-fluid" style="border-radius: 1rem 0 0 1rem;" />
+                  </div>
+                  <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                    <div class="card-body p-4 p-lg-5 text-black">
+                      <form>
+                        <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Member Sign In</h5>
+                        <div class="form-outline mb-4">
+                          <input type="email" id="form2Example17" class="form-control form-control-lg" required>
+                          <label class="form-label" for="form2Example17">User Name</label>
+                        </div>
+                        <div class="form-outline mb-4">
+                          <input type="password" id="form2Example27" class="form-control form-control-lg" required>
+                          <label class="form-label" for="form2Example27">Password</label>
+                        </div>
+                        <div class="pt-1 mb-4">
+                          <a href="member-dashboard.html">
+                            <button class="btn btn-dark btn-block" type="button">Login</button>
+                          </a>
+                        </div>
+                        <a class="small text-muted" href="#">Forgot password?</a>
+                        <p class="mb-5 pb-lg-2" style="color: #030303;">Don't have an account? <a href="register.html" style="color: #0f0f11;">Register here</a>
+                        </p>
+                        <a href="https://www.crunch.com.au/terms-conditions/" class="small text-muted">Terms of use.</a>
+                        <a href="https://www.crunch.com.au/privacy-policy/" class="small text-muted">Privacy policy</a>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-dark text-white">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!-- Section: Text -->
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">MEMBERSHIPS</h5>
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="contact.html" class="text-white">Contact Us</a>
+                </li>
+                <li>
+                  <a href="faq.html" class="text-white">Frequently Asked Questions</a>
+                </li>
+                <li>
+                  <a href="member-login.html" class="text-white">Member Portal</a>
+                </li>
+                <li>
+                  <a href="../admin/admin-login.html" class="text-white">Admin Portal</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">CORPORATE</h5>
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="https://www.crunch.com.au/terms-conditions/" class="text-white">Terms and Conditions</a>
+                </li>
+                <li>
+                  <a href="https://www.crunch.com.au/privacy-policy/" class="text-white">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="https://www.crunch.com.au/our-partners/" class="text-white">Partners</a>
+                </li>
+                <li>
+                  <a href="https://careers.crunch.com.au/" class="text-white">Careers</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <div class="footer-social-link">
+                <h5 class="text-uppercase">Follow Us</h5>
+                <ul>
+                  <li>
+                    <a href="https://www.facebook.com/crunchaustralia" target="_blank">
+                      <i class="fa fa-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/CrunchGym" target="_blank">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://play.google.com/store/apps/details?id=com.ideawork.icrunch&hl=en_AU&gl=AU&pli=1" target="_blank">
+                      <i class="fa fa-google-plus"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/company/crfitnessholdingsllc/" target="_blank">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/crunchfitnessau/?next=%2F" target="_blank">
+                      <i class="fa fa-instagram"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!-- End Social link -->
+            </div>
+            <!-- End Footer info -->
+          </div>
+          <!-- End Col -->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2); font-size:13px"> © 2023 Crunch Fitness Australia. All Rights Reserved. </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </body>
+  <script src="../js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</html>
