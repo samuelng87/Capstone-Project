@@ -9,4 +9,16 @@
 - Frontend and Backend
 - High and Low level Design
 
+# Tools 
+
+- XAMPP
+- Balsamic Cloud
+- DreamWeaver
+- VS Code
+- MyPHPAdmin
+- GitHub
+
+
+
+
   
