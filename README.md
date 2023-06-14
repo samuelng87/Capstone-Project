@@ -1,2 +1,10 @@
-# Capstone-Project
-This is a Uni Project building an Information System for Crunch Fitness using SDLC and SCRUM "Agile Framework" to develop. Below the link a demo and design of the user interface 
+# Capstone-Project- Crunch Fitness Information System
+
+- SDLC
+- SCRUM ( Agile Framework )
+- Information System
+- Gantt Chart
+- SRS Report
+- HTML, CSS, JavaScript and PHP
+- Frontend and Backend
+  
