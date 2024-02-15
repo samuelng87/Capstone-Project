@@ -1,3 +1,7 @@
+# Capstone Project
+
+![](https://github.com/samuelng87/Capstone-Project/blob/main/capstone.gif)
+
 # Capstone-Project- Crunch Fitness Information System
 
 - SDLC
@@ -9,7 +13,7 @@
 - Frontend and Backend
 - High and Low level Design
 
-# Tools 
+# Tools
 
 - XAMPP
 - Balsamic Cloud
@@ -17,8 +21,3 @@
 - VS Code
 - MyPHPAdmin
 - GitHub
-
-
-
-
-  
